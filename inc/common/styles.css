@@ -1,0 +1,190 @@
+* {
+	font-size: 14px;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	color: #424242;
+}
+
+#content .intro * {
+	font-size: 13px;
+}
+
+body {
+	background: url('backgroundtile.png') fixed top;
+}
+
+.margin {
+	margin-bottom: 10px;
+}
+
+#container {
+	width: 925px;
+	margin: 0 auto;
+	height: auto;
+	padding-top: 36px;
+}
+
+#head {
+	width: 800px;
+	margin: 0 auto;
+	height: auto;
+	border-top: 1px dotted #525252;
+	border-bottom: 1px dotted #525252;
+}
+
+#head .logo {
+	height: 0;
+	width: 0;
+	padding-left: 280px;
+	padding-top: 39px;
+	background: url('statim.png') -5px 0;
+	overflow: hidden;
+	display: block;
+	margin: 20px 0px;
+	float: left;
+}
+
+#head .nav {
+	color: #454444;
+	font-weight: bold;
+	float: right;
+	margin-top: 33px;
+}
+
+#head .nav a {
+	color: #454444;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#head .nav a:hover {
+	background: #eee;
+}
+
+#head .nav .off {
+	color: #eeefff;
+}
+
+#head .nav .off:hover {
+	background: none;
+}
+
+#content {
+	width: 800px;
+	margin: 25px auto;
+	height: auto;
+}
+
+#content h1 {
+	font-size: 18px;
+	padding: 25px 0;
+}
+
+#content h2 {
+	padding: 15px 0;
+}
+
+#content ul {
+	list-style: disc;
+	list-style-position: inside;
+}
+
+#content dt, dl {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#content dd {
+	margin-bottom: 5px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+#content p, #content li {
+	text-indent: 20px;
+	text-align: justify;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+
+#content .intro {
+	padding: 10px;
+	margin-bottom: 25px;
+	background: #eee;
+}
+
+#content .intro p {
+	line-height: 19px;
+	margin: 5px;
+}
+
+#content dt a,
+#content li a,
+#content .inicio p a,
+#content .proposta p a,
+#content .monografia p a,
+#content .work p a
+{
+	background: #e2e2e2;
+	text-decoration: none;
+}
+
+#content dt a:hover,
+#content li a:hover,
+#content .inicio p a:hover,
+#content .proposta p a:hover,
+#content .monografia p a:hover,
+#content .work p a:hover
+{
+	text-decoration: underline;
+}
+
+#content .inicio, 
+#content .proposta, 
+#content .monografia, 
+#content .work,
+#content .empreendedorismo, 
+#content .contato
+{
+	width: 800px;
+	border-bottom: 1px dotted #525252;
+	padding: 0px 0px 20px 0px;
+	margin: 50px 0px 0px 0px;
+}
+
+#content .inicio {
+	margin: 0px;
+}
+
+#content #empreendedorismobox {
+	padding-top: 1px;
+}
+
+#content .contato {
+	height: auto;
+}
+
+#content .contato #felipe, #content .contato #geraldo {
+	width: 280px;
+	height: 15px;
+	margin: 0 0 10px 20px;
+}
+
+#content .contato #felipe {
+	background:url(emails.png) 100px 1px no-repeat;
+}
+
+#content .contato #geraldo {
+	background:url(emails.png) 120px -15px no-repeat;
+}
+
+#content #fonte, #content #fonte a {
+	font-size: 12px;
+}
+
+#content #fonte {
+	padding: 10px 0;
+	color: #777;
+	float: right;
+}
+
